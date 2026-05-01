@@ -1,1 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #e9e9e9;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header {
+  color: #e9e9e9;
+  background-color: #000000;
+  font-family: "Roboto Serif";
+  border-radius: 1.7vw;
+  display: flex;
+  padding-top: 10vh;
+  height: 18vh;
+  justify-content: flex-start;
+  padding-left: 2.6vw;
+  padding-bottom: 3.3vh;
+}
+
+.logo {
+  font-size: 3.15vw;
+  font-weight: 600;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 1.33vw;
+  font-family: "Roboto Serif";
+  font-size: 1.56vw;
+  font-weight: 400;
+  padding-bottom: 0.75vw;
+  color: #f5f5f5;
+  white-space: nowrap;
+  margin-right: 1.9vw;
+}
+
+.phone-text {
+  padding-bottom: 0.6vw;
+  font-size: 1.59vw;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+}
+
+
+
+nav a {
+  white-space: nowrap;
+  height: 0.3vw;
+  margin-bottom: 1.7vw;
+  padding-top: 0.45vw;
+  display: flex;
+  text-align: center;
+  font-size: 1.3vw;
+  background-color: #ff042e;
+  font-weight: 320;
+  color: #e9e9e9;
+  border-radius: 3vw;
+  text-decoration: none;
+  margin-left: 0.65vw;
+  padding-bottom: 2vw;
+  padding-top: 0.25vw;
+  padding-left: 3.25vw;
+  padding-right: 3.1vw;
+}
+
+nav a:hover {
+  background-color: #ff506d;
+}
+
+.unUsed:hover {
+  background-color: #ff042e;
+  cursor: default;
+}
+
+.last {
+  padding-left: 2.7vw;
+  padding-right: 3vw;
+}
+
+.poslugi {
+  padding-left: 2.8vw;
+  padding-right: 2.8vw;
+}
+
+.whatIs {
+  margin: 4.6% auto 0 auto;
+  height: 20.8vw;
+  width: 90.5%;
+  display: flex;
+  border-radius: 3vw;
+  text-align: center;
+  color: #e9e9e9;
+  background-color: #c41e3a;
+  box-shadow: 0 0.5vw 0.6vw 0 rgba(0, 0, 0, 0.2);
+}
+
+.firstImg {
+  padding-bottom: 0.58%;
+  padding-top: 0.7%;
+  padding-right: 7.55vw;
+  height: auto;
+}
+
+.before1Img {
+  text-align: left;
+  margin-left: 8.4%;
+  margin-top: 2.5%;
+  margin-right: 2%;
+}
+
+h1 {
+  font-family: "Roboto Serif";
+  font-size: 4.2vw;
+  letter-spacing: 0.2vw;
+  white-space: nowrap;
+  font-weight: 800;
+}
+
+.greyBtn {
+  padding-bottom: 0.5vw;
+  padding-top: 0.5vw;
+  padding-left: 1.8vw;
+  padding-right: 1.7vw;
+  font-size: 1.55vw;
+  background-color: #666666;
+  font-weight: 400;
+  font-family: "Roboto Serif";
+  color: #e9e9e9;
+  border-radius: 3vw;
+  text-decoration: none;
+}
+
+.greyBtn:hover {
+  background-color: #797979;
+}
+
+.marginGrey {
+  margin-top: 5.18%;
+}
+
+.whatIs p {
+  margin-top: 1.3%;
+  font-family: "Inter";
+  margin-bottom: 4%;
+  font-size: 1.05vw;
+  font-weight: 340;
+  padding-right: 2%;
+}
+
+.ourAdvantages {
+  margin: 12% auto 0 auto;
+  min-height: 35.5vw;
+  width: 90.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3vw;
+  text-align: center;
+  color: #e9e9e9;
+  background-color: #c41e3a;
+  padding-bottom: 4%;
+  box-shadow: 0 0.5vw 0.6vw 0 rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-top: 4.5%;
+  margin-bottom: 3.5%;
+  font-family: "Roboto Serif";
+  font-size: 4.2vw;
+  letter-spacing: 0.2vw;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+}
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+h3 {
+  margin-bottom: 5%;
+  font-family: "Roboto Serif";
+  font-size: 2.65vw;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.advantages img {
+  width: 26vw;
+  display: block;
+}
+
+.userReports {
+  margin: 12% auto 0 auto;
+  min-height: 30.5vw;
+  width: 90.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3vw;
+  text-align: center;
+  color: #000000;
+  background-color: #c41e3a;
+  padding-bottom: 4%;
+  margin-bottom: 23.7vh;
+}
+
+.userReports h2 {
+  margin-left: 8vw;
+  color: #e9e9e9;
+}
+
+.reports {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 20vw;
+}
+
+.report {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2.4vw;
+  background-color: #f3f3f3;
+  margin-right: 1.2vw;
+  font-family: "Roboto Serif";
+  font-size: 2.1vw;
+  font-weight: 450;
+  padding-right: 1.05vw;
+}
+
+#report1 {
+  margin-left: 1vw;
+  padding-top: 3vw;
+  max-width: 43vw;
+  padding-bottom: 2.6vw;
+}
+
+#report2 {
+  padding-bottom: 2.9vw;
+  padding-top: 3vw;
+  padding-left: 6vw;
+  padding-right: 4.4vw;
+  max-width: 44vw;
+  min-height: 22.5vw;
+}
+.reports b {
+  font-weight: 600;
+}
+
+footer {
+  flex-shrink: 0;
+  color: #e9e9e9;
+  background-color: #000000;
+  font-family: "Roboto Serif";
+  border-radius: 3vh;
+  display: flex;
+  height: 18vh;
+  padding-bottom: 3.3vh;
+  margin-top: auto;
+}
+
+footer p {
+  padding-left: 2.25vw;
+  padding-top: 3.2vw;
+  font-size: 2.085vw;
+}
+
+.footer-images {
+  margin-left: 25.15%;
+  padding-top: 1.45vw;
+}
+
+.footer-image {
+  margin-left: 1vw;
+  width: 4.75vw;
+}
+
+/*ПРО НАС*/
+
+.nameAboutUs h1 {
+  padding-left: 11vw;
+  padding-right: 12vw;
+  padding-top: 2vw;
+  padding-bottom: 1.6vw;
+  color: #e9e9e9;
+  width: 91.8%;
+  background-color: #c41e3a;
+  border-radius: 3vw;
+  white-space: normal;
+  line-height: 1.18;
+  box-shadow: 0 0.5vw 0.6vw 0 rgba(0, 0, 0, 0.2);
+}
+
+.nameAboutUs {
+  display: flex;
+  padding-right: 1.2vw;
+  margin-top: 3.4vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.rounded-custom {
+  margin-left: 4vw;
+  border-radius: 3.1vw; 
+  box-shadow: 0 0.1vw 0.6vw 0 rgba(0, 0, 0, 0.1) !important;
+   background-color: #FFFFFF;
+}
+
+.allWay{
+  margin-right: 5.2vw;
+  padding-top: 5.1vw ;
+}
+.allWay p {
+  padding-top: 0.9vw;
+  padding-bottom: 1.3vw;
+  padding-right: 7.3vw;
+  line-height: 1.18;
+  padding-left: 7.5vw;
+  font-family: "Inter";
+  font-size: 1.57vw;
+  color: #000000;
+  font-weight: 350;
+}
+
+.allWay .specP{
+   padding-right: 6.1vw;
+}
+
+.allWay p b{
+  font-weight: 600;
+}
+
+.mid{
+  margin-top: 3.5vw;
+}
+
+.ourNumbers{
+  margin-top: 13vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.6vw;
+  width: 94.3% ; 
+  max-width: 94.3% ;
+  background-color: #535353;  
+  border-radius: 3.1vw; 
+  margin-bottom: 8%;
+  padding-bottom: 2%;
+}
+
+.logoOurNumbers h2{
+  margin-top: 1.7% !important;
+  margin-left: 22.6%;
+  width: 51.2%;
+  text-align: center;
+  border-radius: 3.1vw; 
+  padding-left: 2.6%;
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+  background-color: #C41E3A;
+  color: #E9E9E9;
+} 
+
+.cols{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vw;
+}
+.firstCol, .secondCol{
+  display: flex;
+  flex-direction: column;
+}
+
+.firstCol{
+  margin-left: 2%;
+  max-width: 45vw;
+}
+
+.secondCol{
+  margin-left: 3.5%;
+  margin-right: 0.5%;
+}
+
+.firstCol ul, .secondCol ul{
+  font-family: "Inter";
+  font-size: 2.4vw;
+  border-radius: 1.6vw; 
+  background-color: #808080;
+  padding-top: 2vw;
+  color: #FFFFFF ; 
+  font-weight: 600;
+  padding-bottom: 1.6vw;
+}
+.cols p{
+  font-size: 2.6vw;
+  font-weight: 400;
+}
+
+.cols b{
+  letter-spacing: 0.2vw;
+  font-weight: 800;
+}
+
+.firstCol ul{
+   padding-left: 3.5vw;
+   padding-right: 1vw;
+}
+
+.secondCol ul{
+  padding-left: 6.2vw;
+  padding-right: 5.5vw;
+}
+
+.firstFirst, .firstSecond{
+  margin-bottom: 4%;
+}
+
+
+/*КОНТАКТИ*/
+
+.contentContacts{
+  line-height: 1.2;
+  margin-top: 7.2vw;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 11.3vw ;
+}
+
+.textContacts{
+  margin-left: 4vw;
+  margin-top:  4.5vw;
+  font-family: "Roboto Serif";
+  font-size: 1.82vw; 
+  padding: 0;
+}
+
+.textContacts p b, .textContacts b{
+  font-weight: 600;
+}
+
+.schedule{
+ margin-left: 2.5vw;
+}
+
+.schedule ul{
+   font-size: 1.55vw;
+}
+
+.schedule p{
+   font-size: 1.82vw;
+}
+
+.btnZapisatis{
+   font-family: "Roboto Serif";
+  background-color: #ff042e;
+  color: #FFFFFF;
+  border-radius: 3vw;
+  padding: 0.96vw 1.5vw;
+  max-width: 22.8vw;
+  margin-top: 1vw;
+  margin-left: 4.7vw;
+}
+
+.imgMap{
+  margin-left: 18.5vw;
+}
+
+
+
+
+
+
+
+
+
+
 
