@@ -29,11 +29,11 @@ header {
   font-family: "Roboto Serif";
   border-radius: 1.7vw;
   display: flex;
-  padding-top: 10vh;
-  height: 18vh;
+  padding-top: 2vw;
+  max-height: 18vh;
   justify-content: flex-start;
   padding-left: 2.6vw;
-  padding-bottom: 3.3vh;
+  padding-bottom: 1.4vw;
 }
 
 .logo {
@@ -99,8 +99,13 @@ nav a:hover {
 }
 
 .last {
-  padding-left: 2.7vw;
-  padding-right: 3vw;
+  padding-left: 2.7vw ;
+  padding-right: 3vw ;
+}
+
+#last{
+  padding-left: 2.7vw ;
+  padding-right: 3vw ;
 }
 
 .poslugi {
@@ -285,14 +290,13 @@ h3 {
 }
 
 footer {
-  flex-shrink: 0;
   color: #e9e9e9;
   background-color: #000000;
   font-family: "Roboto Serif";
-  border-radius: 3vh;
+  border-radius: 3vw;
   display: flex;
-  height: 18vh;
-  padding-bottom: 3.3vh;
+  padding-bottom: 2.2vw;
+  max-height: 18vw;
   margin-top: auto;
 }
 
@@ -487,6 +491,7 @@ footer p {
 }
 
 .btnZapisatis{
+  white-space: nowrap;
    font-family: "Roboto Serif";
   background-color: #ff042e;
   color: #FFFFFF;
@@ -498,7 +503,11 @@ footer p {
 }
 
 .imgMap{
-  margin-left: 18.5vw;
+  margin-left: 15.5vw;
+}
+
+.imgGoogleMap{
+  height: 37vw; 
 }
 
 
