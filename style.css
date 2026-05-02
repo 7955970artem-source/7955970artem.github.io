@@ -272,10 +272,8 @@ h3 {
 }
 
 #report2 {
-  padding-bottom: 2.9vw;
-  padding-top: 3vw;
   max-width: 44vw;
-  min-height: 22.5vw;
+  max-height: 22.5vw;
 }
 .reports b {
   font-weight: 600;
